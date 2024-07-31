@@ -1,0 +1,72 @@
+header {
+    height: 100px;
+    display: flex;
+    padding: 0 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(242, 242, 242, 0.23);
+}
+
+#logo {
+    margin-right: 20px;
+}
+
+h1 {
+    display: inline;
+    color: white
+}
+
+.Tqv0LVIf {
+    display: flex;
+    align-items: center;
+}
+
+.vpSV0mTV {
+    padding: 20px 50px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.K0tWPRIr {
+    margin-right: 20px;
+}
+
+#draft {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    margin: 30px 0 20px 0;
+    padding: 10px;
+    resize: vertical;
+    max-width: 90%;
+    width: 700px;
+}
+
+.qn1xBVhs {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.WBa5u29hg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#teleprompterForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线提词器</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/teleprompter.css">
+    <link rel="shortcut icon" href="icons/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="jPGrpEKFf">
+            <img id="reset" src="icons/reset.svg" alt="reset" class="icon button MsnHMs3pc" title="回到起点">
+            <img id="exit" src="icons/exit.svg" alt="exit" class="icon button MsnHMs3pc" title="退出">
+        </div>
+        <div class="kxGmkZgVf">
+            <div class="HKlYvROvf">
+                <div class="KBMw0pDNf">
+                    <img src="icons/font_size.svg" alt="font-size" class="icon qC8LLQnK" title="调整字号">
+                    <input placeholder="调整字号" min="1" max="10" step="1" value="5.0" class="pWtkGkJB" type="number"
+                        name="font-size" id="font-size" aria-label="font size">
+                </div>
+                <div class="KBMw0pDNf">
+                    <img src="icons/speed.svg" alt="speed" class="icon qC8LLQnK" title="调整滚动速度">
+                    <input placeholder="调整速度" min="1" max="10" step="1" value="5.0" class="pWtkGkJB" type="number"
+                        name="speed" id="speed" aria-label="speed">
+                </div>
+            </div>
+            <img id="start" src="icons/start.svg" alt="start" class="icon button hGVI3OJYf" title="开始滚动">
+            <img id="stop" src="icons/stop.svg" alt="stop" class="icon button hGVI3OJYf" style="display: none;"
+                title="暂停滚动">
+            <img id="bg-fullscreen" src="icons/bg-fullscreen.svg" alt="bg-fullscreen" class="icon button kJbPTAAkf"
+                title="全屏">
+            <img id="cancel-fullscreen" src="icons/cancel-full-screen.svg" alt="cancel full screen"
+                class="icon button kJbPTAAkf" style="display: none;" title="退出全屏">
+        </div>
+    </header>
+    <main id="prompterContainer">
+        <div class="wmSEbgtaf" id="prompterContent">
+        </div>
+    </main>
+    <div class="Vs2i5ZRMf">
+        <img src="icons/focus1.svg" alt="focus " class="UtWTeh5qf">
+        <img src="icons/focus.svg" alt="focus " class="UtWTeh5qf">
+    </div>
+    <footer>
+        <div class="lf4piS5lf">
+            <div class="ssAlxzNXf">
+                <span id="current-time-consumption" class="NXFDftkPf">00:00:00</span>
+                <span class="32hYL40o">/</span>
+                <span id="total-time-consumption" class="BUfrQYpn">00:00:00</span>
+            </div>
+            <img src="icons/total-time-consumption.svg" alt="total-time-consumption" class="icon WAwV8nuc">
+        </div>
+    </footer>
+    <script src="js/teleprompter.js"></script>
+</body>
+
+</html>
