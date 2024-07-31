@@ -7,5 +7,9 @@ teleprompterForm.addEventListener("submit", (event) => {
     if (text === '') {
         alert('请输入文本内容');
         event.preventDefault();
+    } else {
+        sessionStorage.setItem("draft", text);
+        window.open("teleprompter.html")
     }
+
 })

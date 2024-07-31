@@ -88,7 +88,7 @@ function reset() {
 
 
 window.addEventListener("load", () => {
-    const text = getUrlParameter('draft');
+    const text = sessionStorage.getItem("draft");
     prompterContent.textContent = text;
     prompterContent.style.fontSize = fontSize + "rem";
     speedInput.value = speed;
